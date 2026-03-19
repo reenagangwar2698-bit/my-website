@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  background: lightblue;
+  text-align: center;
+  padding: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  background: blue;
+  color: white;
+  border: none;
+}
+.services {
+  text-align: center;
+  padding: 50px;
+}
+
+.service-box {
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  background: #f2f2f2;
+  border-radius: 10px;
+}
+
+.service-box img {
+  width: 100%;
+}
+
+.service-box h3 {
+  color: blue;
+}
+.contact {
+  text-align: center;
+  padding: 50px;
+  background: #f9f9f9;
+}
+
+.contact input,
+.contact textarea {
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.contact button {
+  background: green;
+  color: white;
+}
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  .service-box {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+  }
+
+  .hero {
+    padding: 50px;
+  }
+}
